@@ -1,0 +1,17 @@
+{
+  "extends": ["@salesforce-ux/sds-stylelint-config"],
+  "defaultSeverity": "error",
+  "rules": {
+    "sds-stylelint-plugin/namespace-pattern": [
+      true,
+      { "namespace": ["sds"], "property": true, "value": true, "severity": "error" }
+    ],
+    "sds-stylelint-plugin/component-pattern": [
+      true,
+      { "property": true, "value": true, "severity": "error" }
+    ],
+    "custom-property-empty-line-before": null,
+    "font-family-no-missing-generic-family-keyword": null,
+    "no-descending-specificity": null
+  }
+}

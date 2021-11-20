@@ -1,0 +1,8 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--sds-c-headline-font-size, var(--sds-g-font-size-5));
+}

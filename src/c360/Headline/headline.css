@@ -1,0 +1,17 @@
+:host([size='x-large']) {
+  font-weight: 200;
+
+  --sds-c-headline-font-size: var(--sds-g-font-size-11);
+}
+
+:host([size='large']) {
+  --sds-c-headline-font-size: var(--sds-g-font-size-10);
+}
+
+:host([size='medium']) {
+  --sds-c-headline-font-size: var(--sds-g-font-size-8);
+}
+
+:host([size='small']) {
+  --sds-c-headline-font-size: var(--sds-g-font-size-7);
+}

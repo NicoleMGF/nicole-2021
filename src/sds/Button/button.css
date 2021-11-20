@@ -1,0 +1,21 @@
+[part~='button'] {
+  padding-top: var(--sds-c-button-padding-vertical, var(--sds-g-spacing-small));
+  padding-bottom: var(
+    --sds-c-button-padding-vertical,
+    var(--sds-g-spacing-small)
+  );
+  padding-left: var(
+    --sds-c-button-padding-horizontal,
+    var(--sds-g-spacing-medium)
+  );
+  padding-right: var(
+    --sds-c-button-padding-horizontal,
+    var(--sds-g-spacing-medium)
+  );
+  background: var(--sds-c-button-color-background);
+  color: var(
+    --sds-c-button-color-text,
+    var(--sds-g-color-brand-base-contrast-2)
+  );
+  border-radius: var(--sds-c-button-radius, var(--sds-g-radius-medium));
+}

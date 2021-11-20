@@ -1,0 +1,102 @@
+html {
+  font-family: 'system-ui', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 16px;
+
+  /* Font Sizing */
+  --sds-g-font-size-1: 0.625rem;
+  --sds-g-font-size-2: 0.75rem;
+  --sds-g-font-size-3: 0.8125rem;
+  --sds-g-font-size-4: 0.875rem;
+  --sds-g-font-size-5: 1rem;
+  --sds-g-font-size-6: 1.125rem;
+  --sds-g-font-size-7: 1.25rem;
+  --sds-g-font-size-8: 1.5rem;
+  --sds-g-font-size-9: 1.75rem;
+  --sds-g-font-size-10: 2rem;
+  --sds-g-font-size-11: 2.625rem;
+
+  /* Spacing */
+  --sds-g-spacing-xx-large: 3rem;
+  --sds-g-spacing-x-large: 2rem;
+  --sds-g-spacing-large: 1.5rem;
+  --sds-g-spacing-medium: 1rem;
+  --sds-g-spacing-small: 0.75rem;
+  --sds-g-spacing-x-small: 0.5rem;
+  --sds-g-spacing-xx-small: 0.25rem;
+  --sds-g-spacing-xxx-small: 0.125rem;
+
+  /* Sizing: Radius */
+  --sds-g-radius-large: 0.5rem;
+  --sds-g-radius-medium: 0.25rem;
+  --sds-g-radius-small: 0.125rem;
+
+  /* Palette: Brand */
+  --sds-g-color-brand-base-1: #fff;
+  --sds-g-color-brand-base-2: #f1f3fd;
+  --sds-g-color-brand-base-3: #dee5fc;
+  --sds-g-color-brand-base-4: #b8c8f9;
+  --sds-g-color-brand-base-contrast-1: #5693f5;
+  --sds-g-color-brand-base-contrast-2: #2b74d0;
+  --sds-g-color-brand-base-contrast-3: #1e5ca7;
+  --sds-g-color-brand-base-contrast-4: #051732;
+
+  /* Palette: Neutral */
+  --sds-g-color-neutral-base-1: #fff;
+  --sds-g-color-neutral-base-2: #f3f3f3;
+  --sds-g-color-neutral-base-3: #e5e5e5;
+  --sds-g-color-neutral-base-4: #c9c9cb;
+  --sds-g-color-neutral-base-contrast-1: #929398;
+  --sds-g-color-neutral-base-contrast-2: #737479;
+  --sds-g-color-neutral-base-contrast-3: #5a5c61;
+  --sds-g-color-neutral-base-contrast-4: #181818;
+
+  /* Palette: Destructive */
+  --sds-g-color-destructive-base-1: #fff;
+  --sds-g-color-destructive-base-2: #fef1ee;
+  --sds-g-color-destructive-base-3: #feded8;
+  --sds-g-color-destructive-base-4: #feb8ab;
+  --sds-g-color-destructive-base-contrast-1: #fe5c4c;
+  --sds-g-color-destructive-base-contrast-2: #ea001e;
+  --sds-g-color-destructive-base-contrast-3: #ba0517;
+  --sds-g-color-destructive-base-contrast-4: #640103;
+}
+
+/* Baseline Global CSS */
+body {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+p,
+li {
+  font-size: 1rem;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+code {
+  background-color: #eee;
+  padding: 5px;
+}

@@ -1,0 +1,11 @@
+:host([variant='brand']) {
+  --sds-c-button-color-background: var(--sds-g-color-brand-base-contrast-2);
+  --sds-c-button-color-text: var(--sds-g-color-brand-base-1);
+}
+
+:host([variant='destructive']) {
+  --sds-c-button-color-background: var(
+    --sds-g-color-destructive-base-contrast-2
+  );
+  --sds-c-button-color-text: var(--sds-g-color-destructive-base-1);
+}
