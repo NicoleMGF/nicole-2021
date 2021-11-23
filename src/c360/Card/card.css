@@ -1,16 +1,9 @@
-img {
-  background-color: var(--sds-g-color-neutral-base-4);
-  border: 1px solid var(--sds-g-color-neutral-base-contrast-4);
-  min-height: 100px;
-  width: 100%;
-}
-
 .card {
   background-color: var(--sds-g-color-neutral-base-2);
   display: flex;
   flex-direction: column;
-  max-width: 500px;
-  min-width: 160px;
+  max-width: 30rem;
+  min-width: 10rem;
   padding: var(--sds-g-spacing-medium);
 }
 
@@ -28,7 +21,9 @@ img {
 }
 
 .image {
-  height: 200px;
+  background-color: var(--sds-g-color-neutral-base-4);
+  border: 1px solid var(--sds-g-color-neutral-base-contrast-4);
+  height: 10rem;
   object-fit: cover;
   object-position: top center;
   width: 100%;
