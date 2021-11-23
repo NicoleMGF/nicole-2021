@@ -24,7 +24,12 @@ class C360CardGroup extends ReactiveElement {
         ${stylesheet}
       </style>
 
-      <div>[Your Card Group Component Template Goes Here]</div>
+      <div class="card-group" role="list">
+        <c360-headline level="h1" size="x-large"><slot name="header"></slot></c360-headline>
+        <div class="container">
+          <slot name="item" class="item"></slot>
+        </div>
+      </div>
     `
   }
 }

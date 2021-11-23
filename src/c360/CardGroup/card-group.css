@@ -1,3 +1,13 @@
-div {
-  border: 1px solid #333;
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: calc(var(--sds-g-spacing-small) * -1);
+  padding: var(--sds-g-spacing-large) 0 var(--sds-g-spacing-small) 0;
+}
+
+.container > ::slotted(*) {
+  flex: 1 1 30%;
+  padding: var(--sds-g-spacing-small);
 }

@@ -1,3 +1,35 @@
-div {
-  border: 1px solid #333;
+img {
+  background-color: var(--sds-g-color-neutral-base-4);
+  border: 1px solid var(--sds-g-color-neutral-base-contrast-4);
+  min-height: 100px;
+  width: 100%;
+}
+
+.card {
+  background-color: var(--sds-g-color-neutral-base-2);
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  min-width: 160px;
+  padding: var(--sds-g-spacing-medium);
+}
+
+.title {
+  color: var(--sds-g-color-brand-base-contrast-3);
+  font-size: var(--sds-g-font-size-7);
+  font-weight: 600;
+  padding-bottom: var(--sds-g-spacing-small);
+}
+
+.content {
+  display: block;
+  font-size: var(--sds-g-font-size-5);
+  padding: var(--sds-g-spacing-small) 0 var(--sds-g-spacing-medium) 0;
+}
+
+.image {
+  height: 200px;
+  object-fit: cover;
+  object-position: top center;
+  width: 100%;
 }

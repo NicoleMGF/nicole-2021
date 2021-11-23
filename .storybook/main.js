@@ -17,13 +17,15 @@ module.exports = {
     },
     '@storybook/addon-viewport',
     '@storybook/addon-a11y',
-    '@storybook/addon-storysource'
+    '@storybook/addon-storysource',
+    '@storybook/addon-actions'
   ],
 
   webpackFinal: async (config, { configType }) => {
-
     // remove their css loader...
-    const rules = config.module.rules.filter((rule) => !rule.test.toString().match('.css'))
+    const rules = config.module.rules.filter(
+      (rule) => !rule.test.toString().match('.css')
+    )
 
     // and replace with our own.
     rules.push({
