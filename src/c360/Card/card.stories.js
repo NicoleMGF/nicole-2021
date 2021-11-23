@@ -25,3 +25,15 @@ export const Base = () => {
     </c360-card>
   `
 }
+
+export const NoImage = () => {
+  return fragmentFrom.html`
+    <c360-card
+      id="card"
+      title="Contact us"
+      content="Call us at 1-800-667-6389, click on chat in the lower right, or let us call you back."
+      cta="REQUEST A CALL"
+    >
+    </c360-card>
+  `
+}

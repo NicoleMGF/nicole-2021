@@ -23,8 +23,13 @@
 .image {
   background-color: var(--sds-g-color-neutral-base-4);
   border: 1px solid var(--sds-g-color-neutral-base-contrast-4);
+  display: none;
   height: 10rem;
   object-fit: cover;
   object-position: top center;
   width: 100%;
+}
+
+.image[displayimg] {
+  display: block;
 }

@@ -56,7 +56,10 @@ class C360Card extends AriaRoleMixin(ReactiveElement) {
     super[internal.render](changed)
 
     if (changed.image) {
-      this[internal.ids].image.src = this[state].image
+      if (this[state].image !== '') {
+        this[internal.ids].image.setAttribute('displayimg', true)
+        this[internal.ids].image.src = this[state].image
+      }
     }
     if (changed.title) {
       this[internal.ids].title.textContent = this[state].title
