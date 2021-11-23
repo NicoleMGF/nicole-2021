@@ -6,32 +6,43 @@ export default {
   parameters: {
     docs: {
       page: docs
+    },
+    actions: {
+      handles: ['ctaclick']
     }
   }
 }
 
-export const RFC = () => {
-  return fragmentFrom.html`
-    <h1>Card Group</h1>
-    <p>
-      You need to build this Card Group component from the specs
-      outlined in the project's README file. Add one or more
-      additional "Stories" (this function is a story) that
-      showcase your component, and use Storybook's addons, such as
-      the responsive viewport, or the AXE accessibility validator,
-      to ensure that your component code is bulletproof.
-    </p>
-    <p>
-      We have scaffolded out two components to assist with your
-      development - this one, which is intended to contain the entire
-      component structure, as well as a 'Card' component to represent
-      an individual card.
-    </p>
-  `
-}
-
 export const Base = () => {
   return fragmentFrom.html`
-    <c360-card-group />
+    <c360-card-group>
+      <span slot="header">Want to learn more about Salesforce?</span>
+      <c360-card
+        slot="item"
+        role="listitem"
+        image="/demo/giraffe.jpg"
+        title="Contact us"
+        content="Call us at 1-800-667-6389, click on chat in the lower right, or let us call you back."
+        cta="REQUEST A CALL"
+      ></c360-card>
+        
+      <c360-card
+        slot="item"
+        role="listitem"
+        image="/demo/lion.jpg"
+        title="See it in action"
+        content="Get an overview of what Salesforce can do for your business in our product demos."
+        cta="WATCH DEMOS"
+      ></c360-card>
+
+      <c360-card
+        slot="item"
+        role="listitem"
+        image="/demo/lizard.jpg"
+        title="Get started now"
+        content="Try Salesforce free for 30 days - no credit card required, no software to install."
+        cta="TRY FOR FREE"
+      ></c360-card>
+      </c360-card-group>
   `
 }
